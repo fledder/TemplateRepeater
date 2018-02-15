@@ -1,0 +1,33 @@
+<!DOCTYPE XUPProject>
+<!--
+###########################################################################################
+##      Created using Monkey Studio IDE v1.9.0.4 (1.9.0.4)
+##
+##  Author    : Jesse Fledderjohann <jfledder@ocdautomation.com>
+##  Project   : templateRepeater
+##  FileName  : templateRepeater.xpythonqt
+##  Date      : 2015-01-08T16:02:47
+##  License   : GPL
+##  Comment   : Utility for repeating text file templates with an answer file for search/replace
+##  Home Page : http://proj.ocdautomation.com/collab/templaterepeater/wiki
+##
+##  This file is provided AS IS with NO WARRANTY OF ANY KIND, INCLUDING THE
+##  WARRANTY OF DESIGN, MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
+##
+###########################################################################################
+-->
+<project version="1.1.0" name="templateRepeater">
+    <variable name="XUP.MAIN_FILE">
+        <value>templateRepeaterMain.py</value>
+    </variable>
+    <variable name="FORMS">
+        <file>templateRepeaterMainWindow.ui</file>
+    </variable>
+    <variable name="PYTHON_FILES">
+        <file>templateRepeaterMain.py</file>
+        <file>templateRepeater.py</file>
+        <file>template.py</file>
+        <file>answer.py</file>
+        <file>replacer.py</file>
+    </variable>
+</project>
