@@ -2,7 +2,7 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "TemplateRepeater"
-#define MyAppVersion "1.0"
+#define MyAppVersion "1.1"
 #define MyAppPublisher "Jesse Fledderjohann"
 #define MyAppURL "https://launchpad.net/templaterepeater"
 #define MyAppExeName "templateRepeaterMain.exe"

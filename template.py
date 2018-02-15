@@ -19,7 +19,7 @@ class Template():
         tags = []
         #Build a regex to find anything bounded by a delimiter. Use capturing 
         #groups to strip the delimiters.
-        searchString = "(" + self.delim + ")([^`]*)(" + self.delim + ")"
+        searchString = "(" + self.delim + ")([^" + self.delim + "]*)(" + self.delim + ")"
         #Loop through the found items
         for m in re.finditer(searchString, self.templateText):
             #Add only captured group 2 (the variable name without delimiters)
